@@ -16,10 +16,20 @@ code {
 
 .body-style {
   background-color: #efe6dd;
+  font-family: 'Otomanopee One', sans-serif;
 }
 
 .header {
   background-color: #efe6dd;
+}
+
+.bg-custom {
+  background-color: #F3DFA2;
+  color: #231F20;
+}
+
+.btn-outline-dark:hover {
+  color: #F3DFA2;
 }
 
 h1 {
