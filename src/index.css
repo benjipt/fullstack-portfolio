@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 body {
   margin: 0;
@@ -35,4 +35,14 @@ code {
 h1 {
   font-size: 64px;
   color: #BB4430;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.bottom {
+  height: 400px;
+  background-color: #FAC9B8;
+  color: #231F20;
 }

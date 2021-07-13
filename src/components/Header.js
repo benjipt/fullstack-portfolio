@@ -17,9 +17,9 @@ export default class Header extends Component {
             <div className="header text-center">
                 <nav className="navbar navbar-dark bg-custom ps-4">
                     <form className="container-fluid justify-content-start">
-                        <button className="btn btn-outline-dark me-3"
+                        <button className="btn btn-sm btn-outline-dark me-3"
                                 onClick={ this.props.showAbout }>ABOUT</button>
-                        <button className="btn btn-outline-dark"
+                        <button className="btn btn-sm btn-outline-dark"
                                 onClick={ this.props.showProjects }>PROJECTS</button>
                     </form>
                 </nav>
