@@ -16,10 +16,12 @@ export default class Header extends Component {
         return (
             <div className="header text-center">
                 <nav className="navbar navbar-dark bg-custom ps-4">
-                    <div className="container-fluid">
-                        {/* <h4>ABOUT</h4> */}
-                        <button className="btn btn-outline-dark">ABOUT</button>
-                    </div>
+                    <form className="container-fluid justify-content-start">
+                        <button className="btn btn-outline-dark me-3"
+                                onClick={ this.props.showAbout }>ABOUT</button>
+                        <button className="btn btn-outline-dark"
+                                onClick={ this.props.showProjects }>PROJECTS</button>
+                    </form>
                 </nav>
                 <h1 className="pt-4">BENJI THOMPSON</h1>
                 <img src={headshot} className="pt-4 rounded" style={imgStyle} alt="headshot Benji Thompson" />
