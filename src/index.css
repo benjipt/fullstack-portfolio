@@ -41,8 +41,26 @@ h4 {
   text-decoration: underline;
 }
 
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+}
+
+.nav-link {
+  color: #4062BB;
+}
+
+.nav-link:hover {
+  color: #BB4430;
+  text-decoration: underline;
+}
+
+.nav-link:visited {
+  color: #4062BB;
+}
+
 .bottom {
   height: 400px;
-  background-color: #FAC9B8;
+  background-color: #E0C1B3;
   color: #231F20;
 }
