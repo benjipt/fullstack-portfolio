@@ -60,6 +60,7 @@ p, li {
 }
 
 .bottom {
+  min-height: 360px;
   background-color: #E0C1B3;
   color: #231F20;
 }
