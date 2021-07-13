@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 body {
   margin: 0;
@@ -33,7 +33,6 @@ code {
 }
 
 h1 {
-  font-family: 'Otomanopee One', sans-serif;
   font-size: 64px;
   color: #BB4430;
 }

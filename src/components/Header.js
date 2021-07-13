@@ -6,6 +6,11 @@ const imgStyle = {
     height: 'auto'
 }
 
+const pStyle = {
+    fontFamily: 'Source Code Pro, monospace',
+    fontWeight: '200'
+}
+
 export default class Header extends Component {
     render() {
         return (
@@ -16,8 +21,11 @@ export default class Header extends Component {
                         <button className="btn btn-outline-dark">ABOUT</button>
                     </div>
                 </nav>
-                <h1 className="pt-4 pb-4">BENJI THOMPSON</h1>
-                <img src={headshot} className="rounded" style={imgStyle} alt="headshot Benji Thompson" />
+                <h1 className="pt-4">BENJI THOMPSON</h1>
+                <img src={headshot} className="pt-4 rounded" style={imgStyle} alt="headshot Benji Thompson" />
+                <div className="pt-4 container">
+                    <p style={pStyle}>Full-stack web engineer with a background in operations & project management in tech startups.</p>
+                </div>
             </div>
         )
     }
