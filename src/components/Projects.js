@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ProjectCard from './ProjectCard'
 
 export default class Projects extends Component {
     constructor(props) {
@@ -11,35 +12,49 @@ export default class Projects extends Component {
                     name: 'Simon',
                     description: 'A digital recreation of Simon, the memory game from Hasbro, with some modern updates. Sounds were created with Garageband.',
                     github: 'https://github.com/benjipt/simon-game',
-                    site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/'
+                    site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/',
+                    id: 1
                 }, {
                     img: 'src/images/microconomy.png',
                     name: 'Microconomy',
                     description: 'Privacy focused referral networks. Full-stack CRUD app using Express JS, deployed on Heroku.',
                     github: 'https://github.com/benjipt/microeconomy',
-                    site: 'http://microeconomy.herokuapp.com/'
+                    site: 'http://microeconomy.herokuapp.com/',
+                    id: 2
                 }, {
                     img: 'src/images/cryptolog.png',
                     name: 'Cryptolog',
                     description: 'A full-stack CRUD React app that allows users to maintain a log of all cryptocurrency buy/sell transactions on exchanges that they transact on.',
                     github: 'https://github.com/benjipt/cryptolog_frontend',
-                    site: 'https://cryptolog-frontend.herokuapp.com/'
+                    site: 'https://cryptolog-frontend.herokuapp.com/',
+                    id: 3
                 }, {
-                    img: 'src/images/journals.png',
+                    img: '../images/journals.jpg',
                     name: 'Journals',
                     description: 'A full-stack CRUD React app that allows users to write and store journal entries. An autocomplete search input is provided to help users search and select for specific journal entries based on keywords.',
                     github: 'https://github.com/benjipt/journal-app-frontend',
-                    site: 'https://cryptolog-frontend.herokuapp.com/'
+                    site: 'https://cryptolog-frontend.herokuapp.com/',
+                    id: 4
                 }
             ]
         }
     }
+
+
 
     render() {
         return (
             <div className="bottom">
                 <div className="pt-2 container text-center">
                     <h4>PROJECTS</h4>
+                    <div className="row">
+                        { this.state.projects.map((project) => {
+                            return (
+                                <ProjectCard project={project}
+                                             key={project.id} />
+                            )
+                        }) }
+                    </div>
                 </div>
             </div>
         )
