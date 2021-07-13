@@ -41,7 +41,7 @@ h4 {
   text-decoration: underline;
 }
 
-p {
+p, li {
   font-family: 'Source Code Pro', monospace;
   font-weight: 400;
 }
@@ -60,7 +60,6 @@ p {
 }
 
 .bottom {
-  height: 400px;
   background-color: #E0C1B3;
   color: #231F20;
 }
