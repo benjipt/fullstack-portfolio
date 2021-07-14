@@ -10,7 +10,7 @@ export default class About extends Component {
                 <div className="pt-4 row justify-content-center">
                     <div className="col-6 ms-4">
                         <h5>Background:</h5>
-                        <p>Since 2015, I've been working in tech startups leading in a variety of roles alongside customer support, product, and engineering teams. In 2018, while working in a non-technical role, I built an onboarding & support chatbot which would allow our company to scale more efficiently in a new market. This was a valuable experience for me because it revealed that in addition to my skillsets as a capable project & operations leader, I learned that I am, especially, a creative engineer. I love building products and experiences that help facilitate improvements to sustained quality of life on our world.</p>
+                        <p>Since 2015, I've been working in tech startups leading in a variety of roles alongside customer support, product, and engineering teams. In 2018, while working in a non-technical role, I built an onboarding & support chatbot which would allow our company to scale more efficiently in a new market. This was a valuable experience for me because it revealed that in addition to my skillsets as a capable project & operations leader, I learned that I am also, a creative engineer. I love building products and experiences that help facilitate improvements to sustained quality of life on our world.</p>
                     </div>
                     <div className="col-5 me-4">
                         <h5>Technology:</h5>
