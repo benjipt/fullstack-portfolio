@@ -11,7 +11,7 @@ export default class ProjectCard extends Component {
         return (
             <div className="col-5 pb-3">
                 <div className="card">
-                    {/* <img style={imgStyle} src="" className="card-img-top" alt={ this.props.project.name } /> */}
+                    <img src={this.props.project.img} className="card-img-top" alt="card img" />
                     <div className="card-body">
                         <h5 className="card-title">{ this.props.project.name }</h5>
                         <p className="card-text">{ this.props.project.description }</p>
