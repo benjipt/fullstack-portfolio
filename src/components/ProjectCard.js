@@ -16,6 +16,8 @@ export default class ProjectCard extends Component {
                         <h5 className="card-title">{ this.props.project.name }</h5>
                         <p className="card-text">{ this.props.project.description }</p>
                         <a className="btn btn-sm btn-secondary me-2" href={ this.props.project.github }>Github Repo</a>
+                        { this.props.project.githubAPI &&
+                        <a className="btn btn-sm btn-secondary me-2" href={ this.props.project.githubAPI }>API Github Repo</a> }
                         <a className="btn btn-sm btn-primary" href={ this.props.project.site }>Launch</a>
                     </div>
                 </div>

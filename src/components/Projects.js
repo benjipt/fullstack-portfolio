@@ -18,6 +18,7 @@ export default class Projects extends Component {
                     name: 'Journals',
                     description: 'A full-stack CRUD React app that allows users to write and store journal entries. An autocomplete search input is provided to help users search and select for specific journal entries based on keywords.',
                     github: 'https://github.com/benjipt/journal-app-frontend',
+                    githubAPI: 'https://github.com/benjipt/journal-app-api',
                     site: 'https://cryptolog-frontend.herokuapp.com/',
                     id: 1
                 }, {
@@ -25,22 +26,23 @@ export default class Projects extends Component {
                     name: 'Cryptolog',
                     description: 'A full-stack CRUD React app that allows users to maintain a log of all cryptocurrency buy/sell transactions on exchanges that they transact on.',
                     github: 'https://github.com/benjipt/cryptolog_frontend',
+                    githubAPI: 'https://github.com/benjipt/cryptolog_api',
                     site: 'https://cryptolog-frontend.herokuapp.com/',
-                    id: 3
+                    id: 2
                 }, {
                     img: microconomyCardImg,
                     name: 'Microconomy',
                     description: 'Privacy focused referral networks. Full-stack CRUD app using Express JS, deployed on Heroku.',
                     github: 'https://github.com/benjipt/microeconomy',
                     site: 'http://microeconomy.herokuapp.com/',
-                    id: 4
+                    id: 3
                 }, {
                     img: simonCardImg,
                     name: 'Simon',
                     description: 'A digital recreation of Simon, the memory game from Hasbro, with some modern updates. Sounds were created with Garageband.',
                     github: 'https://github.com/benjipt/simon-game',
                     site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/',
-                    id: 2
+                    id: 4
                 }
             ]
         }
