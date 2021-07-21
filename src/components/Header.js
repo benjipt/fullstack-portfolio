@@ -24,7 +24,7 @@ export default class Header extends Component {
                 </nav>
                 <h1 className="pt-4">BENJI THOMPSON</h1>
                 <img src={headshot} className="pt-4 rounded" style={imgStyle} alt="headshot Benji Thompson" />
-                <div className="pt-4 container">
+                <div className="pt-4 pb-1 container">
                     <p>Full-stack web developer and React engineer based in Brooklyn, NY</p>
                 </div>
             </div>
