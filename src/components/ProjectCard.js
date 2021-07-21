@@ -1,11 +1,5 @@
 import React, { Component } from 'react'
 
-// const imgStyle = {
-//     display: "block",
-//     width: "100%",
-//     height: "auto"
-// }
-
 export default class ProjectCard extends Component {
     render() {
         return (
