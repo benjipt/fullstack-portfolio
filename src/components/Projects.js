@@ -53,7 +53,7 @@ export default class Projects extends Component {
     render() {
         return (
             <div className="bottom text-center">
-                <div className="row justify-content-center pt-4">
+                <div className="row justify-content-center pt-4 ps-3 pe-3">
                     { this.state.projects.map((project) => {
                         return (
                             <ProjectCard project={project}
