@@ -19,7 +19,7 @@ export default class Projects extends Component {
                     description: 'A full-stack CRUD React app that allows users to write and store journal entries. An autocomplete search input is provided to help users search and select for specific journal entries based on keywords.',
                     github: 'https://github.com/benjipt/journal-app-frontend',
                     githubAPI: 'https://github.com/benjipt/journal-app-api',
-                    site: 'https://cryptolog-frontend.herokuapp.com/',
+                    site: 'https://journals-app-frontend.herokuapp.com',
                     id: 1
                 }, {
                     img: cryptologCardImg,
@@ -27,7 +27,7 @@ export default class Projects extends Component {
                     description: 'A full-stack CRUD React app that allows users to maintain a log of all cryptocurrency buy/sell transactions on exchanges that they transact on.',
                     github: 'https://github.com/benjipt/cryptolog_frontend',
                     githubAPI: 'https://github.com/benjipt/cryptolog_api',
-                    site: 'https://journals-app-frontend.herokuapp.com',
+                    site: 'https://cryptolog-frontend.herokuapp.com/',
                     id: 2
                 }, {
                     img: microconomyCardImg,
