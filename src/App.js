@@ -5,8 +5,8 @@ import Projects from './components/Projects'
 
 export default function App() {
   // STATE HOOKS
-  const [ showAbout, setShowAbout ] = useState(true)
-  const [ showProjects, setShowProjects ] = useState(false)
+  const [ showAbout, setShowAbout ] = useState(false)
+  const [ showProjects, setShowProjects ] = useState(true)
 
   const clickShowAbout = e => {
     e.preventDefault()
@@ -23,8 +23,8 @@ export default function App() {
   return (
     <div>
       <Header 
-        showAbout={ clickShowAbout }
-        showProjects={ clickShowProjects } />
+        clickShowAbout={ clickShowAbout }
+        clickShowProjects={ clickShowProjects } />
       
       { showAbout && <About /> }
 
