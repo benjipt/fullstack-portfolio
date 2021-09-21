@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
     const { img, name, description, github, githubAPI, site } = project
 
     return (
-        <div className="col-md pb-3">
+        <div className="col-sm pb-3">
             <div className="card">
                 <img src={ img } className="card-img-top" alt="card img" />
                 <div className="card-body">

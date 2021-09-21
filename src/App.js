@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <div>
-      <Header 
+      <Header
         clickShowAbout={ clickShowAbout }
         clickShowProjects={ clickShowProjects } />
       
