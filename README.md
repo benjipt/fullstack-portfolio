@@ -8,6 +8,7 @@ Since 2015, I've been working in tech startups leading in a variety of roles alo
 
 Front-End
 - React
+- Redux
 - ReCharts for data-visualization (React)
 - Google OAuth for login/authentication (Google Cloud)
 - Bootstrap (CSS Framework)

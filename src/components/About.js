@@ -13,6 +13,7 @@ export default function About() {
                     <p>Front-End</p>
                     <ul>
                         <li>React</li>
+                        <li>Redux</li>
                         <li>ReCharts for data-visualization (React)</li>
                         <li>Google OAuth for login/authentication (Google Cloud)</li>
                         <li>Bootstrap & Material UI (CSS Frameworks)</li>
