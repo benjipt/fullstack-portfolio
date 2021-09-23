@@ -14,7 +14,7 @@ export default function Projects() {
         {
             img: jobcoinCardImg,
             name: 'Jobcoin',
-            description: 'UI design for a fake cryptocurrency wallet - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for Gemini, data fetched from API created and maintained by Gemini. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.',
+            description: "Sign-on page and UI for a fake cryptocurrency wallet - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for a crypto exchange, data fetched and shaped from exchange API for wallet balance rendering. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.",
             github: 'https://github.com/benjipt/jobcoin-ui',
             site: 'https://jobcoin-1c304e.netlify.app',
             id: 1
