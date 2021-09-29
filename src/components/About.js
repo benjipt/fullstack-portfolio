@@ -6,7 +6,9 @@ export default function About() {
             <div className="pt-4 row justify-content-center">
                 <div className="col-md ms-4">
                     <h5>Background:</h5>
-                    <p>Since 2015, I've been working in tech startups leading in a variety of roles alongside customer support, product, and engineering teams. In 2018, while working in a non-technical role, I built an onboarding & support chatbot which would allow our company to scale more efficiently in a new market. This was a valuable experience for me because it revealed that in addition to my skillsets as a capable project & operations leader, I learned that I am also, a creative engineer. I love building products and experiences that help facilitate improvements to sustained quality of life on our world.</p>
+                    <p>Since 2015, I've been working in tech startups leading in a variety of roles alongside customer support, product, and engineering teams. In 2018, while working in a non-technical role, I built an onboarding & support chatbot which would allow our company to scale more efficiently in a new market. This was a valuable experience for me because it revealed that in addition to my skill sets as a capable project & operations leader, I learned that I am also a creative engineer.</p>
+                    <p>I’ve found that my multidisciplinary background has greatly enabled my ability to understand user needs and pain points, allowing me to create simple and performant solutions for an array of user personas and use cases.</p>
+                    <p>I love building products and experiences that help facilitate improvements to sustained quality of life on our world.</p>
                 </div>
                 <div className="col-md ms-4">
                     <h5>Technology Stack:</h5>
