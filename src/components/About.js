@@ -33,6 +33,12 @@ export default function About() {
                         <li>Heroku</li>
                         <li>Netlify</li>
                     </ul>
+                    <p>Unit Testing</p>
+                    <ul>
+                        <li>Jest</li>
+                        <li>Mocha</li>
+                        <li>Chai</li>
+                    </ul>
                     <p>Dev Tools</p>
                     <ul>
                         <li>Git</li>
