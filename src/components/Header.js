@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../images/IMG_9582.jpg'
+import headshot from '../images/profile-photo.jpg'
 
 const imgStyle = {
     width: '200px',
