@@ -27,35 +27,31 @@ export default function About() {
                     <ul>
                         <li>React</li>
                         <li>Redux</li>
-                        <li>ReCharts for data-visualization (React)</li>
-                        <li>Google OAuth for login/authentication (Google Cloud)</li>
-                        <li>Bootstrap & Material UI (CSS Frameworks)</li>
-                        <li>and of course: HTML, CSS, Javascript</li>
+                        <li>Typescript & Javascript</li>
+                        <li>Graphql & REST</li>
+                        <li>Theme UI, Tailwind, MUI, Bootstrap</li>
+                        <li>React Testing Library, Jest, Mocha</li>
+                        <li>and of course: HTML & CSS</li>
                     </ul>
                     <p>Back-End</p>
                     <ul>
-                        <li>Express.js (Javascript)</li>
-                        <li>Flask (Python)</li>
+                        <li>Express</li>
+                        <li>Ruby on Rails</li>
                         <li>MongoDB (NoSQL Database)</li>
                         <li>PostgreSQL (SQL Database)</li>
+                        <li>Rspec, Minitest</li>
                     </ul>
                     <p>Hosting</p>
                     <ul>
                         <li>Heroku</li>
                         <li>Netlify</li>
                     </ul>
-                    <p>Unit Testing</p>
+                    <p>Dev & Design Tools</p>
                     <ul>
-                        <li>Jest</li>
-                        <li>Mocha</li>
-                        <li>Chai</li>
-                    </ul>
-                    <p>Dev Tools</p>
-                    <ul>
-                        <li>Git</li>
-                        <li>Github</li>
-                        <li>Jira</li>
-                        <li>Postman</li>
+                        <li>Git & Github</li>
+                        <li>Github Actions, Concourse for CI/CD</li>
+                        <li>Jira, Shortcut for Agile Workflow</li>
+                        <li>Figma for design collaboration/mocking</li>
                     </ul>
                 </div>
             </div>
