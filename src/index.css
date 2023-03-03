@@ -48,6 +48,7 @@ p, li {
 
 .nav-link {
   color: #4062BB;
+  padding-right: 10px;
 }
 
 .nav-link:hover {
