@@ -62,11 +62,14 @@ export default function Projects() {
   // ]
 
   return (
-    <div className='bottom text-center'>
-      <div className='row justify-content-center pt-4 ps-3 pe-3'>
-        {projects.map(project => {
-          return <ProjectCard project={project} key={project.id} />;
-        })}
+    <div className='container bottom text-center'>
+      <div className='row justify-content-center ps-3 pe-3'>
+        <ProjectCard project={projects[0]} />
+        <ProjectCard project={projects[1]} />
+      </div>
+      <div className='row justify-content-center ps-3 pe-3 pb-4'>
+        <ProjectCard project={projects[2]} />
+        <ProjectCard project={projects[3]} />
       </div>
     </div>
   );
