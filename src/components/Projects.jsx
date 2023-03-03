@@ -16,6 +16,7 @@ export default function Projects() {
         'Sign-on page and UI for a fake cryptocurrency wallet - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for a crypto exchange, data fetched and shaped from exchange API for wallet balance rendering. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.',
       github: 'https://github.com/benjipt/jobcoin-ui',
       site: 'https://jobcoin-1c304e.netlify.app',
+      deprecated: false,
       id: 1,
     },
     {
@@ -26,6 +27,7 @@ export default function Projects() {
       github: 'https://github.com/benjipt/journal-app-frontend',
       githubAPI: 'https://github.com/benjipt/journal-app-api',
       site: 'https://journals-app-frontend.herokuapp.com',
+      deprecated: true,
       id: 2,
     },
     {
@@ -36,6 +38,7 @@ export default function Projects() {
       github: 'https://github.com/benjipt/cryptolog_frontend',
       githubAPI: 'https://github.com/benjipt/cryptolog_api',
       site: 'https://cryptolog-frontend.herokuapp.com/',
+      deprecated: true,
       id: 3,
     },
     {
@@ -45,6 +48,7 @@ export default function Projects() {
         'A digital recreation of Simon, the memory game from Hasbro, with some modern updates. Sounds were created with Garageband.',
       github: 'https://github.com/benjipt/simon-game',
       site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/',
+      deprecated: false,
       id: 4,
     },
   ];

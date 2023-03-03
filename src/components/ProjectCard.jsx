@@ -1,7 +1,8 @@
 import React from 'react';
 
 export default function ProjectCard({ project }) {
-  const { img, name, description, github, githubAPI, site } = project;
+  const { img, name, description, github, githubAPI, site, deprecated } =
+    project;
 
   return (
     <div className='col-sm pt-4'>
@@ -25,9 +26,11 @@ export default function ProjectCard({ project }) {
               API Github Repo
             </a>
           )}
-          <a className='btn btn-sm btn-primary' href={site}>
-            Launch
-          </a>
+          {!deprecated && (
+            <a className='btn btn-sm btn-primary' href={site}>
+              Launch
+            </a>
+          )}
         </div>
       </div>
     </div>
