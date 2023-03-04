@@ -15,22 +15,23 @@ code {
 }
 
 .body-style {
-  background-color: #E0C1B3;
+  background-color: #EAE9ED;
   font-family: 'Otomanopee One', sans-serif;
 }
 
 .header {
-  background-color: #efe6dd;
+  background-color: #EAE9ED;
 }
 
 .bg-custom {
-  background-color: #F3DFA2;
-  color: #231F20;
+  background-color: #EDEBBF;
+  color: #110404;
+  border-bottom: thin solid #616283;
 }
 
 h1 {
   font-size: 64px;
-  color: #BB4430;
+  color: #110404;
 }
 
 h4 {
@@ -43,22 +44,22 @@ p, li {
 }
 
 .nav-link {
-  color: #4062BB;
+  color: #C78283;
   padding-right: 10px;
 }
 
 .nav-link:hover {
-  color: #BB4430;
+  color: #A94C4D;
   text-decoration: underline;
 }
 
 .nav-link:visited {
-  color: #4062BB;
+  color: #A94C4D;
 }
 
 .bottom {
   min-height: 360px;
-  background-color: #E0C1B3;
+  background-color: #EAE9ED;
   color: #231F20;
 }
 
