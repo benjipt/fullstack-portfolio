@@ -4,20 +4,22 @@ import About from './components/About';
 import Projects from './components/Projects';
 
 export default function App() {
-  // STATE HOOKS
-  const [showAbout, setShowAbout] = useState(false);
-  const [showProjects, setShowProjects] = useState(true);
+  // ENUMS
+  const Section = {
+    projects: 'projects',
+    about: 'about',
+  };
+  // STATE HOOK
+  const [toggleSection, setToggleSection] = useState(Section.projects);
 
   const clickShowAbout = e => {
     e.preventDefault();
-    setShowAbout(true);
-    setShowProjects(false);
+    setToggleSection(Section.about);
   };
 
   const clickShowProjects = e => {
     e.preventDefault();
-    setShowAbout(false);
-    setShowProjects(true);
+    setToggleSection(Section.projects);
   };
 
   return (
@@ -26,10 +28,7 @@ export default function App() {
         clickShowAbout={clickShowAbout}
         clickShowProjects={clickShowProjects}
       />
-
-      {showAbout && <About />}
-
-      {showProjects && <Projects />}
+      {toggleSection === Section.projects ? <Projects /> : <About />}
     </div>
   );
 }
