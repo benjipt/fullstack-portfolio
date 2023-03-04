@@ -2,13 +2,9 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
+import { Section } from './types';
 
 export default function App() {
-  // ENUMS
-  const Section = {
-    projects: 'projects',
-    about: 'about',
-  };
   // STATE HOOK
   const [toggleSection, setToggleSection] = useState(Section.projects);
 
@@ -27,6 +23,7 @@ export default function App() {
       <Header
         clickShowAbout={clickShowAbout}
         clickShowProjects={clickShowProjects}
+        toggleSection={toggleSection}
       />
       {toggleSection === Section.projects ? <Projects /> : <About />}
     </div>
