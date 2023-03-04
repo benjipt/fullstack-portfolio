@@ -1,24 +1,49 @@
 import React from 'react';
 import headshot from '../images/profile-photo.jpg';
+import { Section } from '../types';
 
 const imgStyle = {
   width: '200px',
   height: 'auto',
 };
 
-export default function Header({ clickShowProjects, clickShowAbout }) {
+const activeSectionStyle = {
+  backgroundColor: '#231F20',
+  color: '#F3DFA2',
+};
+
+const inactiveSectionStyle = {
+  backgroundColor: '#F3DFA2',
+  color: '#231F20'
+};
+
+export default function Header({
+  clickShowProjects,
+  clickShowAbout,
+  toggleSection,
+}) {
   return (
     <div className='header text-center'>
       <nav className='navbar navbar-dark bg-custom ps-4'>
         <form className='justify-content-start'>
           <button
             className='btn btn-sm btn-outline-dark me-3'
-            onClick={clickShowProjects}>
+            onClick={clickShowProjects}
+            style={
+              toggleSection === Section.projects
+                ? activeSectionStyle
+                : inactiveSectionStyle
+            }>
             PROJECTS
           </button>
           <button
             className='btn btn-sm btn-outline-dark'
-            onClick={clickShowAbout}>
+            onClick={clickShowAbout}
+            style={
+              toggleSection === Section.about
+                ? activeSectionStyle
+                : inactiveSectionStyle
+            }>
             ABOUT
           </button>
         </form>
