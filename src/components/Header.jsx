@@ -8,13 +8,13 @@ const imgStyle = {
 };
 
 const activeSectionStyle = {
-  backgroundColor: '#231F20',
-  color: '#F3DFA2',
+  backgroundColor: '#8B687F',
+  color: '#EDEBBF',
 };
 
 const inactiveSectionStyle = {
-  backgroundColor: '#F3DFA2',
-  color: '#231F20'
+  backgroundColor: '#EDEBBF',
+  color: '#8B687F'
 };
 
 export default function Header({
