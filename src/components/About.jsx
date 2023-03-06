@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
   return (
     <div
-      className='container pt-4 justify-content-center'>
-      <div className='ms-4 p'>
+      className='container justify-content-center'>
+      <div className='ms-4 mt-5'>
         <h5>Background:</h5>
         <p>
           As a skilled developer, I take pride in crafting visually appealing
@@ -37,7 +37,7 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <div className='ms-4'>
+      <div className='ms-4 mt-5 mb-5'>
         <h5>Technology Stack:</h5>
         <p>Front-End</p>
         <ul>
@@ -51,7 +51,7 @@ export default function About() {
         </ul>
         <p>Back-End</p>
         <ul>
-          <li>Express</li>
+          <li>ExpressJS (Node)</li>
           <li>Ruby on Rails</li>
           <li>MongoDB (NoSQL Database)</li>
           <li>PostgreSQL (SQL Database)</li>
