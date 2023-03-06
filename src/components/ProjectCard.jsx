@@ -12,22 +12,25 @@ export default function ProjectCard({ project }) {
           <h5 className='card-title'>{name}</h5>
           <div
             style={{
-              height: '180px',
+              height: '160px',
               display: 'table-cell',
               verticalAlign: 'middle',
             }}>
             <p className='card-text'>{description}</p>
           </div>
-          <a className='btn btn-sm btn-secondary me-2 mb-1' href={github}>
+          <a className='btn btn-sm btn-custom-secondary-card me-2' href={github} target='_blank'
+          rel='noreferrer'>
             Github Repo
           </a>
           {githubAPI && (
-            <a className='btn btn-sm btn-secondary me-2 mb-1' href={githubAPI}>
+            <a className='btn btn-sm btn-custom-secondary-card me-2' href={githubAPI} target='_blank'
+            rel='noreferrer'>
               API Github Repo
             </a>
           )}
           {!deprecated && (
-            <a className='btn btn-sm btn-primary' href={site}>
+            <a className='btn btn-sm btn-custom-card' href={site} target='_blank'
+            rel='noreferrer'>
               Launch
             </a>
           )}

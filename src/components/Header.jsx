@@ -64,15 +64,15 @@ export default function Header({
           </a>
         </div>
       </nav>
-      <h1 className='pt-4'>BENJI THOMPSON</h1>
+      <h1 className='mt-5'>Benji Thompson</h1>
       <img
         src={headshot}
-        className='pt-4 rounded'
+        className='mt-4 rounded'
         style={imgStyle}
         alt='headshot Benji Thompson'
       />
       <div className='pt-4 pb-1 container'>
-        <p>Full-Stack Engineer based in Brooklyn, NY</p>
+        <p className='monospace'>Full-Stack Engineer based in Brooklyn, NY</p>
         <a
           href='benji-thompson-swe-resume.pdf'
           download

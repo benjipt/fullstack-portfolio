@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'bootstrap';
 
 body {
@@ -17,7 +17,7 @@ code {
 
 .body-style {
   background-color: #EAE9ED;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -48,10 +48,50 @@ code {
   color: #EAE9ED;
 }
 
+.btn-custom-card {
+  background-color: #8B687F;
+  border-color: #8B687F;
+  color: #FFFFFF;
+}
+
+.btn-custom-card:hover {
+  background-color: #616283;
+  border-color: #616283;
+  color: #FFFFFF;
+}
+
+.btn-custom-card:active:focus {
+  background-color: #A94C4D;
+  border-color: #A94C4D;
+  color: #EDEBBF
+}
+
+.btn-custom-secondary-card {
+  background-color: #EAE9ED;
+  border-color: #EAE9ED;
+  color: #A94C4D
+}
+
+.btn-custom-secondary-card:hover {
+  background-color: #8B687F;
+  border-color: #8B687F;
+  color: #FFFFFF;
+}
+
+.btn-custom-secondary-card:active:focus {
+  background-color: #A94C4D;
+  border-color: #A94C4D;
+  color: #FFFFFF;
+}
+
 h1 {
-  font-family: 'Otomanopee One', sans-serif;
+  font-family: 'Homemade Apple', cursive;
   font-size: 64px;
   color: #110404;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
 }
 
 h4 {
@@ -59,7 +99,7 @@ h4 {
 }
 
 p, li {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -67,7 +107,12 @@ button {
   font-weight: bold;
 }
 
+.monospace {
+  font-family: 'Source Code Pro', monospace;
+}
+
 .nav-link {
+  font-family: 'Raleway', sans-serif;
   font-size: large;
   color: #A94C4D;
   padding-right: 10px;
@@ -78,14 +123,8 @@ button {
   text-decoration: underline;
 }
 
-.bottom {
-  min-height: 360px;
-  background-color: #EAE9ED;
-  color: #231F20;
-}
-
 .card-title {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: larger;
 }
 
