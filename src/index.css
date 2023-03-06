@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import 'bootstrap';
 
 body {
   margin: 0;
@@ -16,7 +17,7 @@ code {
 
 .body-style {
   background-color: #EAE9ED;
-  font-family: 'Otomanopee One', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 .header {
@@ -29,7 +30,26 @@ code {
   border-bottom: thin solid #616283;
 }
 
+.btn-custom {
+  background-color: #EAE9ED;
+  border-color: #8B687F;
+  color: #8B687F;
+}
+
+.btn-custom:hover {
+  background-color: #8B687F;
+  border-color: #8B687F;
+  color: #EAE9ED;
+}
+
+.btn-custom:active:focus {
+  background-color: #A94C4D;
+  border-color: #A94C4D;
+  color: #EAE9ED;
+}
+
 h1 {
+  font-family: 'Otomanopee One', sans-serif;
   font-size: 64px;
   color: #110404;
 }
@@ -43,8 +63,11 @@ p, li {
   font-weight: 400;
 }
 
+button {
+  font-weight: bold;
+}
+
 .nav-link {
-  font-family: 'Kanit', sans-serif;
   font-size: large;
   color: #A94C4D;
   padding-right: 10px;
@@ -59,6 +82,15 @@ p, li {
   min-height: 360px;
   background-color: #EAE9ED;
   color: #231F20;
+}
+
+.card-title {
+  font-family: 'Kanit', sans-serif;
+  font-size: larger;
+}
+
+.card-text {
+  font-size: 13px;
 }
 
 @media (max-width: 400px) {

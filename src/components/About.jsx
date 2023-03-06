@@ -2,15 +2,14 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div
-      className='container justify-content-center'>
+    <div className='container justify-content-center'>
       <div className='ms-4 mt-5'>
         <h5>Background:</h5>
         <p>
           As a skilled developer, I take pride in crafting visually appealing
           and captivating user experiences that are underpinned by robust,
           efficient, and well-documented code. My passion lies in merging
-          aesthetics with functionality to deliver seamless digital experiences 
+          aesthetics with functionality to deliver seamless digital experiences
           that delight users.
         </p>
         <p>
