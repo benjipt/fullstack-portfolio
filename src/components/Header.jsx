@@ -14,7 +14,7 @@ const activeSectionStyle = {
 
 const inactiveSectionStyle = {
   backgroundColor: '#EDEBBF',
-  color: '#8B687F'
+  color: '#8B687F',
 };
 
 export default function Header({
