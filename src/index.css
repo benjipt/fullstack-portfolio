@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 body {
   margin: 0;
@@ -44,17 +44,15 @@ p, li {
 }
 
 .nav-link {
-  color: #C78283;
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+  color: #A94C4D;
   padding-right: 10px;
 }
 
 .nav-link:hover {
   color: #A94C4D;
   text-decoration: underline;
-}
-
-.nav-link:visited {
-  color: #A94C4D;
 }
 
 .bottom {
