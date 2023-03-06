@@ -27,7 +27,7 @@ export default function Header({
       <nav className='navbar navbar-dark bg-custom ps-4'>
         <form className='justify-content-start'>
           <button
-            className='btn btn-sm btn-outline-dark me-3'
+            className='btn btn-sm btn-custom me-3'
             onClick={clickShowProjects}
             style={
               toggleSection === Section.projects
@@ -37,7 +37,7 @@ export default function Header({
             PROJECTS
           </button>
           <button
-            className='btn btn-sm btn-outline-dark'
+            className='btn btn-sm btn-custom'
             onClick={clickShowAbout}
             style={
               toggleSection === Section.about
@@ -73,6 +73,15 @@ export default function Header({
       />
       <div className='pt-4 pb-1 container'>
         <p>Full-Stack Engineer based in Brooklyn, NY</p>
+        <a
+          href='benji-thompson-swe-resume.pdf'
+          download
+          target='_blank'
+          rel='noreferrer'>
+          <button type='button' className='btn btn-custom'>
+            Download Resume
+          </button>
+        </a>
       </div>
     </div>
   );
