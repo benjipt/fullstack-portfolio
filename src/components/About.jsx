@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='container justify-content-center'>
       <div className='ms-4 mt-5'>
-        <h5>Background:</h5>
+        <h3>Background:</h3>
         <p>
           As a skilled developer, I take pride in crafting visually appealing
           and captivating user experiences that are underpinned by robust,
@@ -37,7 +37,7 @@ export default function About() {
         </ul>
       </div>
       <div className='ms-4 mt-5 mb-5'>
-        <h5>Technology Stack:</h5>
+        <h3>Technology Stack:</h3>
         <p>Front-End</p>
         <ul>
           <li>React</li>
