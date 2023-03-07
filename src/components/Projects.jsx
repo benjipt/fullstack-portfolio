@@ -61,16 +61,16 @@ export default function Projects() {
   ];
 
   return (
-    <div className='container bottom text-center'>
+    <div className='container text-center mb-5'>
       <div className='row justify-content-center ps-3 pe-3'>
         <ProjectCard project={projects[0]} />
         <ProjectCard project={projects[1]} />
       </div>
-      <div className='row justify-content-center ps-3 pe-3 pb-4'>
+      <div className='row justify-content-center ps-3 pe-3'>
         <ProjectCard project={projects[2]} />
         <ProjectCard project={projects[3]} />
       </div>
-      <div className='row justify-content-center ps-3 pe-3 pb-4'>
+      <div className='row justify-content-center ps-3 pe-3'>
         <ProjectCard project={projects[4]} />
         <ProjectCard project={projects[5]} />
       </div>
