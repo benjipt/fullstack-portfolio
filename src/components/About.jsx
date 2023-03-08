@@ -7,10 +7,10 @@ export default function About() {
         <h3>Background:</h3>
         <p>
           As a skilled developer, I take pride in crafting visually appealing
-          and captivating user experiences that are underpinned by robust,
+          and captivating user experiences that are underpinned by clean,
           efficient, and well-documented code. My passion lies in merging
           aesthetics with functionality to deliver seamless digital experiences
-          that delight users.
+          that excite users.
         </p>
         <p>
           Since 2015, I’ve taken on leadership roles in teams across customer
