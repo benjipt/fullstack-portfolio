@@ -21,18 +21,16 @@ export default function About() {
         </p>
         <ul>
           <li>
-            Shipped a failed payment notification feature that reduced failed
-            payments amount by $829k in one month. (Odeko)
+            As part of the money team, shipped a full-stack solution which successfully reduced customers’ payment failures by $829k in one month (Software Engineer, Odeko)
           </li>
           <li>
-            Implemented multi-timezone support in ordering & delivery app,
-            allowing expansion to customers outside of eastern time zone.
-            (Odeko)
+            Independently developed an internal application which saved my colleague 10 - 15 hours a week of tedious analysis and data entry, while also reducing the burden of third-party licensing fees by tens of thousands of dollars per annum (Software Engineer, Odeko)
           </li>
           <li>
-            Developed an onboarding and support chatbot and integrated with
-            Google Cloud Dialogflow for natural language processing and Slack
-            for live chat support (Trōv).
+            Implemented multi-timezone support in ordering & delivery app, allowing expansion to new markets. (Software Engineer, Odeko)
+          </li>
+          <li>
+            Developed a chatbot using Google Cloud DialogFlow NLP for efficient onboarding and enhanced support operations (Custom Support & Insights Manager, Trōv)
           </li>
         </ul>
       </div>
