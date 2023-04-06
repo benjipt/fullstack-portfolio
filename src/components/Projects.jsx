@@ -19,11 +19,11 @@ export default function Projects() {
     },
     {
       img: jobcoinCardImg,
-      name: 'Jobcoin',
+      name: 'Bitcorn',
       description:
-        'Sign-on page and UI for a fake cryptocurrency wallet - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for a crypto exchange, data fetched and shaped from exchange API for wallet balance rendering. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.',
-      github: 'https://github.com/benjipt/jobcoin-ui',
-      site: 'https://jobcoin-1c304e.netlify.app',
+        'Sign-on page and wallet UI for a cryptocurrency called Bitcorn (recently updated from Jobcoin 4-6-23) - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for a crypto exchange, data fetched and shaped from exchange API for wallet balance rendering. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.',
+      github: 'https://github.com/benjipt/bitcorn-app',
+      site: 'https://bitcorn.netlify.app',
     },
     {
       img: journalsCardImg,
