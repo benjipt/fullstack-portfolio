@@ -1,6 +1,8 @@
+import React from 'react';
+
 export default function About() {
   return (
-    <div className='container justify-content-center' data-testid='about'>
+    <div className='container justify-content-center'>
       <div className='ms-4 mt-5'>
         <h3>Background:</h3>
         <p>
