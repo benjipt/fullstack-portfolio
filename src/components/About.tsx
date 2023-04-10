@@ -21,16 +21,24 @@ export default function About() {
         </p>
         <ul>
           <li>
-            As part of the money team, shipped a full-stack solution which successfully reduced customers’ payment failures by $829k in one month (Software Engineer, Odeko)
+            As part of the money team, shipped a full-stack solution which
+            successfully reduced customers’ payment failures by $829k in one
+            month (Software Engineer, Odeko)
           </li>
           <li>
-            Independently developed an internal application which saved my colleague 10 - 15 hours a week of tedious analysis and data entry, while also reducing the burden of third-party licensing fees by tens of thousands of dollars per annum (Software Engineer, Odeko)
+            Independently developed an internal application which saved my
+            colleague 10 - 15 hours a week of tedious analysis and data entry,
+            while also reducing the burden of third-party licensing fees by tens
+            of thousands of dollars per annum (Software Engineer, Odeko)
           </li>
           <li>
-            Implemented multi-timezone support in ordering & delivery app, allowing expansion to new markets. (Software Engineer, Odeko)
+            Implemented multi-timezone support in ordering & delivery app,
+            allowing expansion to new markets. (Software Engineer, Odeko)
           </li>
           <li>
-            Developed a chatbot using Google Cloud DialogFlow NLP for efficient onboarding and enhanced support operations (Custom Support & Insights Manager, Trōv)
+            Developed a chatbot using Google Cloud DialogFlow NLP for efficient
+            onboarding and enhanced support operations (Custom Support &
+            Insights Manager, Trōv)
           </li>
         </ul>
       </div>

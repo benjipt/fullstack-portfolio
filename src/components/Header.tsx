@@ -1,6 +1,12 @@
-import React from 'react';
+import { MouseEvent } from 'react';
 import headshot from '../images/profile-photo.jpg';
 import { Section } from '../types';
+
+interface HeaderProps {
+  clickShowProjects: (e: MouseEvent<HTMLButtonElement>) => void;
+  clickShowAbout: (e: MouseEvent<HTMLButtonElement>) => void;
+  toggleSection: Section;
+}
 
 const imgStyle = {
   width: '200px',
@@ -21,7 +27,7 @@ export default function Header({
   clickShowProjects,
   clickShowAbout,
   toggleSection,
-}) {
+}: HeaderProps) {
   return (
     <div className='header text-center'>
       <nav className='navbar navbar-dark bg-custom ps-4'>
