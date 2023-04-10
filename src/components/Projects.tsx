@@ -7,9 +7,10 @@ import cryptologCardImg from '../images/cryptolog-card-img.jpg';
 import microconomyCardImg from '../images/microconomy-card-img.jpg'
 import jobcoinCardImg from '../images/jobcoin-card-img.jpg';
 import confidentialCardImG from '../images/confidential-card-img.jpg';
+import { Project } from '../types';
 
 export default function Projects() {
-  const projects = [
+  const projects: Project[] = [
     {
       img: confidentialCardImG,
       name: 'Pricing Controller',

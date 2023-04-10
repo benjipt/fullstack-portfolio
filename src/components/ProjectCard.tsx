@@ -1,6 +1,11 @@
 import React from 'react';
+import { Project } from '../types';
 
-export default function ProjectCard({ project }) {
+interface ProjectCardProps {
+  project: Project;
+}
+
+export default function ProjectCard({ project }: ProjectCardProps) {
   const { img, name, description, github, githubAPI, site } = project;
 
   return (
