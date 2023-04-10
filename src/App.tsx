@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, MouseEvent } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -8,12 +8,12 @@ export default function App() {
   // STATE HOOK
   const [toggleSection, setToggleSection] = useState(Section.projects);
 
-  const clickShowAbout = e => {
+  const clickShowAbout = (e: MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setToggleSection(Section.about);
   };
 
-  const clickShowProjects = e => {
+  const clickShowProjects = (e: MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setToggleSection(Section.projects);
   };
