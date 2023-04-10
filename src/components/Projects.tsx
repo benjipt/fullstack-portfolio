@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import simonCardImg from '../images/simon-card-img.jpg';
 import journalsCardImg from '../images/journals-card-img.jpg';
 import cryptologCardImg from '../images/cryptolog-card-img.jpg';
-import microconomyCardImg from '../images/microconomy-card-img.jpg'
+import microconomyCardImg from '../images/microconomy-card-img.jpg';
 import jobcoinCardImg from '../images/jobcoin-card-img.jpg';
 import confidentialCardImG from '../images/confidential-card-img.jpg';
 import { Project } from '../types';
@@ -55,7 +55,8 @@ export default function Projects() {
     {
       img: microconomyCardImg,
       name: 'Microconomy',
-      description: 'Privacy focused referral networks. Full-stack CRUD app using Express JS, deployed on Heroku.',
+      description:
+        'Privacy focused referral networks. Full-stack CRUD app using Express JS, deployed on Heroku.',
       github: 'https://github.com/benjipt/microeconomy',
       // site: 'http://microeconomy.herokuapp.com/',
     },

@@ -19,11 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "tsc && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format-check": "npx prettier -c 'src/**/*.{js,jsx}'",
-    "format-write": "npx prettier -w 'src/**/*.{js,jsx}'"
+    "format-check": "npx prettier -c 'src/**/*.{js,jsx,ts,tsx}'",
+    "format-write": "npx prettier -w 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "eslintConfig": {
     "extends": [

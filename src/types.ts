@@ -1,8 +1,7 @@
-
 export enum Section {
   projects = 'projects',
   about = 'about',
-};
+}
 
 export type Project = {
   img: string;
@@ -11,4 +10,4 @@ export type Project = {
   site?: string;
   github?: string;
   githubAPI?: string;
-}
+};
