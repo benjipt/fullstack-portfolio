@@ -1,6 +1,4 @@
-import React from 'react';
 import ProjectCard from './ProjectCard';
-
 import simonCardImg from '../images/simon-card-img.jpg';
 import journalsCardImg from '../images/journals-card-img.jpg';
 import cryptologCardImg from '../images/cryptolog-card-img.jpg';
@@ -63,7 +61,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className='container text-center mb-5'>
+    <div className='container text-center mb-5' data-testid='projects'>
       <div className='row justify-content-center ps-3 pe-3'>
         <ProjectCard project={projects[0]} />
         <ProjectCard project={projects[1]} />
