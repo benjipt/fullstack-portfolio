@@ -10,8 +10,8 @@ describe('App', () => {
       <MemoryRouter>
         <App />
       </MemoryRouter>
-    )
-  })
+    );
+  });
 
   test('renders App component', () => {
     expect(screen.getByText(/about/i)).toBeInTheDocument();
