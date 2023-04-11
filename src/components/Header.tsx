@@ -1,12 +1,7 @@
 import { MouseEvent } from 'react';
+import { NavLink } from 'react-router-dom';
 import headshot from '../images/profile-photo.jpg';
 import { Section } from '../types';
-
-interface HeaderProps {
-  clickShowProjects: (e: MouseEvent<HTMLButtonElement>) => void;
-  clickShowAbout: (e: MouseEvent<HTMLButtonElement>) => void;
-  toggleSection: Section;
-}
 
 const imgStyle = {
   width: '200px',
@@ -23,35 +18,29 @@ const inactiveSectionStyle = {
   color: '#8B687F',
 };
 
-export default function Header({
-  clickShowProjects,
-  clickShowAbout,
-  toggleSection,
-}: HeaderProps) {
+export default function Header() {
   return (
     <div className='header text-center'>
       <nav className='navbar navbar-dark bg-custom ps-4'>
         <form className='justify-content-start'>
-          <button
+          <NavLink
+            to="/projects"
             className='btn btn-sm btn-custom me-3'
-            onClick={clickShowProjects}
-            style={
-              toggleSection === Section.projects
-                ? activeSectionStyle
-                : inactiveSectionStyle
+            style={({ isActive }) => {
+              return isActive ? activeSectionStyle : inactiveSectionStyle
+              }
             }>
             PROJECTS
-          </button>
-          <button
+          </NavLink>
+          <NavLink
+            to="/about"
             className='btn btn-sm btn-custom'
-            onClick={clickShowAbout}
-            style={
-              toggleSection === Section.about
-                ? activeSectionStyle
-                : inactiveSectionStyle
+            style={({ isActive }) => {
+              return isActive ? activeSectionStyle : inactiveSectionStyle
+              }
             }>
             ABOUT
-          </button>
+          </NavLink>
         </form>
         <div className='d-flex flex-row-reverse'>
           <a
