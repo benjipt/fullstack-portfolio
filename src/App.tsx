@@ -8,9 +8,9 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/projects" />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
+        <Route path='/' element={<Navigate to='/projects' />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </>
   );

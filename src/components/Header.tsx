@@ -1,7 +1,5 @@
-import { MouseEvent } from 'react';
 import { NavLink } from 'react-router-dom';
 import headshot from '../images/profile-photo.jpg';
-import { Section } from '../types';
 
 const imgStyle = {
   width: '200px',
@@ -24,20 +22,18 @@ export default function Header() {
       <nav className='navbar navbar-dark bg-custom ps-4'>
         <form className='justify-content-start'>
           <NavLink
-            to="/projects"
+            to='/projects'
             className='btn btn-sm btn-custom me-3'
-            style={({ isActive }) => {
-              return isActive ? activeSectionStyle : inactiveSectionStyle
-              }
+            style={({ isActive }) =>
+              isActive ? activeSectionStyle : inactiveSectionStyle
             }>
             PROJECTS
           </NavLink>
           <NavLink
-            to="/about"
+            to='/about'
             className='btn btn-sm btn-custom'
-            style={({ isActive }) => {
-              return isActive ? activeSectionStyle : inactiveSectionStyle
-              }
+            style={({ isActive }) =>
+              isActive ? activeSectionStyle : inactiveSectionStyle
             }>
             ABOUT
           </NavLink>
