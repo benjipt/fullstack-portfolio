@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import headshot from '../images/profile-photo.jpg';
 
 const imgStyle = {
@@ -6,7 +5,7 @@ const imgStyle = {
   height: 'auto',
 };
 
-export default function Header() {
+export default function Hero() {
   return (
     <div className='header text-center'>
       <h1 className='mt-5'>Benji Thompson</h1>
