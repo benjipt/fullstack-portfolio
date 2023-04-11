@@ -17,6 +17,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest",
+    "test:ci": "jest --no-watchAll",
+    "ci": "npm run test:ci && tsc && vite build",
     "format-check": "npx prettier -c 'src/**/*.{js,jsx,ts,tsx}'",
     "format-write": "npx prettier -w 'src/**/*.{js,jsx,ts,tsx}'"
   },
