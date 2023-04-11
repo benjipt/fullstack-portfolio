@@ -3,6 +3,9 @@ import { MemoryRouter } from 'react-router-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import App from '../App';
+import scrollToMock from '../__mocks__/scrollToMock';
+
+scrollToMock();
 
 describe('App', () => {
   beforeEach(() => {
@@ -14,6 +17,7 @@ describe('App', () => {
   });
 
   test('renders App component', () => {
+    expect(screen.getByTestId('app')).toBeInTheDocument();
     expect(screen.getByText(/about/i)).toBeInTheDocument();
     expect(screen.getByText(/projects/i)).toBeInTheDocument();
   });
