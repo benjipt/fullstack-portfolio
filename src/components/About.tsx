@@ -44,7 +44,7 @@ export default function About() {
         <h3>Technology Stack:</h3>
         <p>Front-End</p>
         <ul>
-          <li>React</li>
+          <li>React & Vue</li>
           <li>Redux</li>
           <li>Typescript & Javascript</li>
           <li>Graphql & REST</li>
