@@ -10,19 +10,28 @@ import { Project } from '../types';
 export default function Projects() {
   const projects: Project[] = [
     {
-      img: confidentialCardImG,
-      name: 'Pricing Controller',
-      description:
-        'Independently developed and deployed this React microservice for Odeko, which streamlines the pricing management process for e-commerce catalog items, replacing manual work with automated features. This saves the company significant amounts of time and licensing costs. Built with: Typescript, React, and Redux, on top of a federated graphql architecture using Apollo and urql.',
-      site: 'https://odeko.com',
-    },
-    {
       img: jobcoinCardImg,
       name: 'Bitcorn',
       description:
-        'Sign-on page and wallet UI for a cryptocurrency called Bitcorn (recently updated from Jobcoin 4-6-23) - users can send coins to any address and sign-in via any address, data-visualization/chart renders balance changes in wallet over time. Take-home project for a crypto exchange, data fetched and shaped from exchange API for wallet balance rendering. Only certain addresses will have coins in wallet, try: Jilly or Benji for demo purposes.',
+        'This project is a full-stack web application built with React and Ruby on Rails. It involves creating a fictional cryptocurrency called Bitcorn, where users can send coins to any address and track their wallet balance changes over time through a data visualization. The frontend of the app is built using Typescript, React, D3, and Vite and is hosted on Netlify. The backend is built with Ruby on Rails and PostgreSQL and is hosted on Heroku. For demo purposes, sign in with "Jilly" or "Benji".',
       github: 'https://github.com/benjipt/bitcorn-app',
+      githubAPI: 'https://github.com/benjipt/bitcorn-chain',
       site: 'https://bitcorn.netlify.app',
+    },
+    {
+      img: confidentialCardImG,
+      name: 'Pricing Controller',
+      description:
+        'I independently created and deployed a pricing app that streamlined the pricing management process for e-commerce catalog items. By automating tedious analysis and data entry tasks, my colleague was able to save 10-15 hours a week. Moreover, the app helped our organization save tens of thousands of dollars in 3rd party licensing fees. I used Typescript, React, and Redux to develop the app on top of a federated GraphQL architecture using Apollo and urql.',
+      site: 'https://odeko.com',
+    },
+    {
+      img: simonCardImg,
+      name: 'Simon',
+      description:
+        'A digital recreation of Simon, the memory game from Hasbro, with some modern updates. Sounds were created with Garageband.',
+      github: 'https://github.com/benjipt/simon-game',
+      site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/',
     },
     {
       img: journalsCardImg,
@@ -32,14 +41,6 @@ export default function Projects() {
       github: 'https://github.com/benjipt/journal-app-frontend',
       githubAPI: 'https://github.com/benjipt/journal-app-api',
       // site: 'https://journals-app-frontend.herokuapp.com',
-    },
-    {
-      img: simonCardImg,
-      name: 'Simon',
-      description:
-        'A digital recreation of Simon, the memory game from Hasbro, with some modern updates. Sounds were created with Garageband.',
-      github: 'https://github.com/benjipt/simon-game',
-      site: 'https://wonderful-brahmagupta-3ad87a.netlify.app/',
     },
     {
       img: cryptologCardImg,
