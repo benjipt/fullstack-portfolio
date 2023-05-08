@@ -22,31 +22,31 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <p className='card-text'>{description}</p>
           </div>
           <div className='mt-1' style={{ height: '30px' }}>
+            {site && (
+              <a
+                className='btn btn-sm btn-custom-card me-2'
+                href={site}
+                target='_blank'
+                rel='noreferrer'>
+                Launch
+              </a>
+            )}
             {github && (
               <a
                 className='btn btn-sm btn-custom-secondary-card me-2'
                 href={github}
                 target='_blank'
                 rel='noreferrer'>
-                Github Repo
+                FE code
               </a>
             )}
             {githubAPI && (
               <a
-                className='btn btn-sm btn-custom-secondary-card me-2'
+                className='btn btn-sm btn-custom-secondary-card'
                 href={githubAPI}
                 target='_blank'
                 rel='noreferrer'>
-                API Github Repo
-              </a>
-            )}
-            {site && (
-              <a
-                className='btn btn-sm btn-custom-card'
-                href={site}
-                target='_blank'
-                rel='noreferrer'>
-                Launch
+                BE code
               </a>
             )}
           </div>
