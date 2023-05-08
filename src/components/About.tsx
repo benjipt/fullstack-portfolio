@@ -35,7 +35,7 @@ export default function About() {
           </li>
           <li>
             Developed a chatbot using Google Cloud DialogFlow NLP for efficient
-            onboarding and enhanced support operations (Custom Support &
+            onboarding and enhanced support operations (Customer Support &
             Insights Manager, Trōv)
           </li>
         </ul>
