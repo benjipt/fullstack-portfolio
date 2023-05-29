@@ -1,5 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'bootstrap';
+
+@font-face {
+  font-family: 'Homemade Apple';
+  src: url('./assets/fonts/Homemade_Apple/HomemadeApple-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('./assets/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -16,72 +39,72 @@ code {
 }
 
 .body-style {
-  background-color: #EAE9ED;
+  background-color: #eae9ed;
   font-family: 'Raleway', sans-serif;
 }
 
 .header {
-  background-color: #EAE9ED;
+  background-color: #eae9ed;
 }
 
 .bg-custom {
-  background-color: #EDEBBF;
+  background-color: #edebbf;
   color: #110404;
   border-bottom: thin solid #616283;
 }
 
 .btn-custom {
-  background-color: #EAE9ED;
-  border-color: #8B687F;
-  color: #8B687F;
+  background-color: #eae9ed;
+  border-color: #8b687f;
+  color: #8b687f;
 }
 
 .btn-custom:hover {
-  background-color: #8B687F;
-  border-color: #8B687F;
-  color: #EAE9ED;
+  background-color: #8b687f;
+  border-color: #8b687f;
+  color: #eae9ed;
 }
 
 .btn-custom:active:focus {
-  background-color: #A94C4D;
-  border-color: #A94C4D;
-  color: #EAE9ED;
+  background-color: #a94c4d;
+  border-color: #a94c4d;
+  color: #eae9ed;
 }
 
 .btn-custom-card {
-  background-color: #8B687F;
-  border-color: #8B687F;
-  color: #FFFFFF;
+  background-color: #8b687f;
+  border-color: #8b687f;
+  color: #ffffff;
 }
 
 .btn-custom-card:hover {
   background-color: #616283;
   border-color: #616283;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-custom-card:active:focus {
-  background-color: #A94C4D;
-  border-color: #A94C4D;
-  color: #EDEBBF
+  background-color: #a94c4d;
+  border-color: #a94c4d;
+  color: #edebbf;
 }
 
 .btn-custom-secondary-card {
-  background-color: #EAE9ED;
-  border-color: #EAE9ED;
-  color: #A94C4D
+  background-color: #eae9ed;
+  border-color: #eae9ed;
+  color: #a94c4d;
 }
 
 .btn-custom-secondary-card:hover {
-  background-color: #8B687F;
-  border-color: #8B687F;
-  color: #FFFFFF;
+  background-color: #8b687f;
+  border-color: #8b687f;
+  color: #ffffff;
 }
 
 .btn-custom-secondary-card:active:focus {
-  background-color: #A94C4D;
-  border-color: #A94C4D;
-  color: #FFFFFF;
+  background-color: #a94c4d;
+  border-color: #a94c4d;
+  color: #ffffff;
 }
 
 h1 {
@@ -98,7 +121,8 @@ h4 {
   text-decoration: underline;
 }
 
-p, li {
+p,
+li {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
@@ -114,12 +138,12 @@ button {
 .nav-link {
   font-family: 'Raleway', sans-serif;
   font-size: large;
-  color: #A94C4D;
+  color: #a94c4d;
   padding-right: 10px;
 }
 
 .nav-link:hover {
-  color: #A94C4D;
+  color: #a94c4d;
   text-decoration: underline;
 }
 
