@@ -1,4 +1,4 @@
-import headshot from '../images/profile-photo.jpg';
+import headshot from '../assets/images/profile-photo.jpg';
 
 const imgStyle = {
   width: '200px',

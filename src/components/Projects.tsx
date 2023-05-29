@@ -1,10 +1,10 @@
 import ProjectCard from './ProjectCard';
-import simonCardImg from '../images/simon-card-img.jpg';
-import journalsCardImg from '../images/journals-card-img.jpg';
-import cryptologCardImg from '../images/cryptolog-card-img.jpg';
-import microconomyCardImg from '../images/microconomy-card-img.jpg';
-import jobcoinCardImg from '../images/jobcoin-card-img.jpg';
-import confidentialCardImG from '../images/confidential-card-img.jpg';
+import simonCardImg from '../assets/images/simon-card-img.jpg';
+import journalsCardImg from '../assets/images/journals-card-img.jpg';
+import cryptologCardImg from '../assets/images/cryptolog-card-img.jpg';
+import microconomyCardImg from '../assets/images/microconomy-card-img.jpg';
+import jobcoinCardImg from '../assets/images/jobcoin-card-img.jpg';
+import confidentialCardImG from '../assets/images/confidential-card-img.jpg';
 import { Project } from '../types';
 
 export default function Projects() {
