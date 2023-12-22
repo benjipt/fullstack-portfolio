@@ -18,7 +18,7 @@ export default function Hero() {
       <div className='pt-4 pb-1 container'>
         <p className='monospace'>Full-Stack Engineer based in Brooklyn, NY</p>
         <a
-          href='benji-thompson-swe-resume.pdf'
+          href='benji-thompson-resume.pdf'
           download
           target='_blank'
           rel='noreferrer'>
