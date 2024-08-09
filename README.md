@@ -28,8 +28,8 @@ My cross-disciplinary background has afforded me a well developed tech startup a
 
 Front-End
 
-- React & Vue
-- Redux
+- React, Vue, and React-Native
+- Redux, Redux-Toolkit, and Jotai
 - Typescript & Javascript
 - GraphQL & REST
 - Theme UI, Tailwind, MUI, Bootstrap
@@ -44,16 +44,14 @@ Back-End
 
 Infrastructure
 
-- Google Cloud Platform (Dialogflow)
-
-Hosting
-
+- Google Cloud Platform
+- Expo
 - Heroku
 - Netlify
 
 Dev Tools/Resources
 
 - Git & Github
-- Github Actions, Concourse for CI/CD
+- Github Actions, Concourse for CI/CD, Expo for React-Native
 - Jira & Shortcut for Agile Workflow
 - Figma for design collaboration/mocking

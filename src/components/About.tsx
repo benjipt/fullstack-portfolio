@@ -44,8 +44,8 @@ export default function About() {
         <h3>Technology Stack:</h3>
         <p>Front-End</p>
         <ul>
-          <li>React & Vue</li>
-          <li>Redux</li>
+          <li>React, Vue, and React-Native</li>
+          <li>Redux, Redux-Toolkit, and Jotai</li>
           <li>Typescript & Javascript</li>
           <li>Graphql & REST</li>
           <li>Theme UI, Tailwind, MUI, Bootstrap</li>
@@ -60,8 +60,10 @@ export default function About() {
           <li>PostgreSQL (SQL Database)</li>
           <li>Rspec, Minitest</li>
         </ul>
-        <p>Hosting</p>
+        <p>Infrastructure</p>
         <ul>
+          <li>Google Cloud Platform</li>
+          <li>Expo</li>
           <li>Heroku</li>
           <li>Netlify</li>
         </ul>
